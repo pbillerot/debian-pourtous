@@ -8,13 +8,12 @@ Script d'installation d'une Debian minimale pour Google Chrome
 - disposer d'un compte Gmail
 - Créer une image iso de la Debian à partir de la version la plus stable sur une clé usb
 - https://www.debian.org/releases/buster/debian-installer/
-- ```debian-10.1.0-amd64-netinst.iso``` à la date de rédaction de ce document
+- Debian Buster ```debian-10.1.0-amd64-netinst.iso``` à la date de rédaction de ce document
 
 ## Installation de Debian sur la machine cible :
 - boot sur la clé USB
 - choisir l'installation minimale: Web et utilitaires de base + logiciel tiers
-> Attention lors de la frappe au clavier, celui-ci est resté en querty malgré le choix du clavier azerty peu avant _(sera pris en compte au prochain boot)_
-- Avec un compte **debian** qui ne servira que pour l'installation et réglages divers des packages
+- Avec un compte **debian** qui ne servira que pour l'installation et les réglages divers des packages
 
 ## Suppression / installations des applications
 Dans un terminal
