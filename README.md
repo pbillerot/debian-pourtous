@@ -2,13 +2,11 @@
 
 Script d'installation d'une Debian minimale pour Google Chrome
 
-[Wiki](https://github.com/pbillerot/debian-pourtous/wiki)
-
 ## Préalables :
 - disposer d'un compte Gmail
 - Créer une image iso de la Debian à partir de la version la plus stable sur une clé usb
-- https://www.debian.org/releases/buster/debian-installer/
-- Debian Buster ```debian-10.1.0-amd64-netinst.iso``` à la date de rédaction de ce document
+- https://www.debian.org/devel/debian-installer/
+- Debian Buster ```debian-11.1.0-amd64-netinst.iso``` à la date 11 oct 2021
 
 ## Installation de Debian sur la machine cible :
 - boot sur la clé USB
