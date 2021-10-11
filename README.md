@@ -6,21 +6,20 @@ Script d'installation d'une Debian minimale pour Google Chrome
 - disposer d'un compte Gmail
 - Créer une image iso de la Debian à partir de la version la plus stable sur une clé usb
 - https://www.debian.org/devel/debian-installer/
-- Debian Buster ```debian-11.1.0-amd64-netinst.iso``` à la date 11 oct 2021
+- Debian 11 Bullseye ```debian-11.1.0-amd64-netinst.iso``` à la date 11 oct 2021
 
 ## Installation de Debian sur la machine cible :
 - boot sur la clé USB
-- choisir l'installation minimale: Web et utilitaires de base + logiciel tiers
-- Avec un compte **debian** qui ne servira que pour l'installation et les réglages divers des packages
+- choisir l'installation par défaut (Gnome)
 
 ## Suppression / installations des applications
 Dans un terminal
 ```
-sudo apt install git
+su -
+apt install sudo git
+adduser <compte> sudo
 git clone https://github.com/pbillerot/debian-pourtous.git
 cd debian-pourtous
-chmod +x debian-mini.sh
-# Vérifier que firefox n'est pas ouvert
 ./debian-mini.sh
 ```
 
