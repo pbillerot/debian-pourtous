@@ -2,7 +2,7 @@
 # sudo apt install -y gnome-core
 
 # Suppression des applications inutiles
-sudo apt remove firefox* -y
+# sudo apt remove firefox* -y
 
 # Ajouts de paquets standards
 sudo apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
