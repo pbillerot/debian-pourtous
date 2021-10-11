@@ -5,21 +5,24 @@
 sudo apt remove firefox* -y
 
 # Ajouts de paquets standards
+sudo apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
+sudo apt install -y nautilus-image-converter
+# sudo apt install -y inxi
+
+# Ajouts de paquets flatpak
+sudo apt install flatpak gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.github.jeromerobert.pdfarranger
+# flatpak install flathub com.vscodium.codium
 
 # Google Chrome
 # Je n'utilise pas Chromium car ne permet pas le bureau à distance
-sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo wget -qO - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/googlechrome-linux-keyring.gpg
+sudo echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
 sudo apt-get update
 sudo apt-get install -y google-chrome-stable
 
 # Gnome + Système
-sudo apt install -y nautilus-image-converter
-sudo apt install -y inxi
-# Gallerie photos
-sudo apt install -y shotwell
-# Lecteur multimédia
-sudo apt install -y vlc
 
 # Nettoyage
 sudo apt autoremove -y
