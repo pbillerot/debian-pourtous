@@ -7,6 +7,7 @@
 # Ajouts de paquets standards
 sudo apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
 sudo apt install -y nautilus-image-converter
+sudo apt install -y gthumb
 # sudo apt install -y inxi
 
 # Ajouts de paquets flatpak
