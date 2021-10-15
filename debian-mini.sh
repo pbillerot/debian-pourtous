@@ -8,9 +8,9 @@ sudo apt install -y sshfs nfs-common xauth cifs-utils
 # sudo apt install -y inxi
 
 # Ajouts de paquets flatpak
-apt install flatpak gnome-software-plugin-flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.github.jeromerobert.pdfarranger
+sudo apt install flatpak gnome-software-plugin-flatpak
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo flatpak install flathub com.github.jeromerobert.pdfarranger
 # flatpak install flathub com.vscodium.codium
 
 # Google Chrome
