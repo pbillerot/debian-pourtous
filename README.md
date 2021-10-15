@@ -16,8 +16,15 @@ Script d'installation d'une Debian minimale pour Google Chrome
 Dans un terminal
 ```
 su -
-apt install sudo git
+apt install git
+# apt install spice-vdagent (si dans VM)
 adduser <compte> sudo
+reboot
+```
+puis
+```
+mkdir Apps 
+cd Apps
 git clone https://github.com/pbillerot/debian-pourtous.git
 cd debian-pourtous
 ./debian-mini.sh
