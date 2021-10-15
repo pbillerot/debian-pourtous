@@ -1,6 +1,6 @@
 # Debian pour tous
 
-![](debian-pourtous.jpg)
+![](debian-pourtous.png)
 
 Script d'installation d'une Debian minimale pour Google Chrome
 
