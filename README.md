@@ -5,7 +5,6 @@
 Script d'installation d'une Debian pour tous
 
 ## Préalables :
-- disposer d'un compte Gmail
 - Créer une image iso de la Debian à partir de la version la plus stable sur une clé usb
 - https://cdimage.debian.org/cdimage/unofficial/non-free/firmware/
 - Debian 11 Bullseye ```firmware-11.1.0-amd64-netinst.iso``` à la date 11 oct 2021
