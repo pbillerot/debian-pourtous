@@ -20,7 +20,7 @@ Dans un terminal
 ```
 su -
 apt install git
-# apt install spice-vdagent (si dans VM)
+# apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
 reboot
 ```
@@ -35,21 +35,7 @@ git clone https://github.com/pbillerot/debian-pourtous.git
 cd debian-pourtous
 ./debian-mini.sh
 ```
-
-### Détails
-- Utilisateurs: connexion automatique ?
-- Applications par défaut : Chrome, Vlc, Visionneuse d'images
-
-## Réglages Gnome 
-### Application Ajustements
-- Barre Supérieure : pourcentage batterie
-- Clavier & souris / Pavé tactile : désactiver pendant la saisie
-- Energie: mettre en veille si écran rabattu
-### Bureau
-- Enlever des favoris: Aide
-- Ajouter Calculatrice aux favoris
-
-> Redémarrage de la machine 
+> Redémarrer la machine 
 
 [Réglages](personnalisation.md)
 
