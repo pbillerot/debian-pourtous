@@ -2,19 +2,20 @@
 
 ![](debian-pourtous.png)
 
-Script d'installation d'une Debian minimale pour Google Chrome
+Script d'installation d'une Debian pour tous
 
 ## Préalables :
 - disposer d'un compte Gmail
 - Créer une image iso de la Debian à partir de la version la plus stable sur une clé usb
-- https://www.debian.org/devel/debian-installer/
-- Debian 11 Bullseye ```debian-11.1.0-amd64-netinst.iso``` à la date 11 oct 2021
+- https://cdimage.debian.org/cdimage/unofficial/non-free/firmware/
+- Debian 11 Bullseye ```firmware-11.1.0-amd64-netinst.iso``` à la date 11 oct 2021
 
 ## Installation de Debian sur la machine cible :
+- Créer une clé USB avec l'iso téléchargé
 - boot sur la clé USB
 - choisir l'installation par défaut (Gnome)
 
-## Suppression / installations des applications
+## Installations des applications
 Dans un terminal
 ```
 su -
@@ -23,7 +24,10 @@ apt install git
 adduser <compte> sudo
 reboot
 ```
-puis
+puis au boot suivant
+
+Téléchargemnt du script d'installation du noyau des applications
+chrome, flatpak, gthumb, zim
 ```
 mkdir Apps 
 cd Apps
@@ -32,21 +36,6 @@ cd debian-pourtous
 ./debian-mini.sh
 ```
 
-> Étapes suivantes à réaliser avec l'utilisateur de la machine 
-
-## Réglages Debian (application Paramètres)
-### Wifi
-
-### Bluetooth
-
-### Energie
-- Ecran noir 15 minutes
-- Mise en veille automatique ? à voir avec utilisateur
-### Son
-- vérifier Entrée / Sortie
-### Périphériques
-- Écrans: Activer mode nuit
-- Régler Souris pavé tactile
 ### Détails
 - Utilisateurs: connexion automatique ?
 - Applications par défaut : Chrome, Vlc, Visionneuse d'images
@@ -62,25 +51,5 @@ cd debian-pourtous
 
 > Redémarrage de la machine 
 
-## Réglage Chrome
-### Options au 1er démarrage de Chrome
-- Navigateur par défaut
-- Décocher l'envoi des statistiques
-- Ajouter Chrome aux favoris du dock
-- Personnaliser la page d'accueil
-### Barre personnelle
-- Actualités, Gmail, Drive, Photos, Contacts, Agenda, Keep
-- Autoriser Gmail à lire les liens email
-- Autoriser Agenda à lire les liens caldav
-### Extensions
-- Chrome Remote Desktop
-> lancer le téléchargement de l'extension
-- Extension Google Keep pour Chrome
-### Drive
-- convertir les fichiers importés
-
-## Réglages imprimante
-...attente cas concrets
-
-
+[Réglages](personnalisation.md)
 
