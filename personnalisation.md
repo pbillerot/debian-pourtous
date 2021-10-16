@@ -29,6 +29,9 @@
 - Ecran noir : 10 minutes
 - Misen veille automatique : désactivée
 
+### Écran
+- Mode nuit
+
 ## Files Nautilus
 
 ### Préférences
@@ -36,3 +39,8 @@
 - Vues / Autoriser le dépliage des dossiers
 - Comportement / Afficher la fonction pour créer des liens symboliques
 - Comportement / Afficher la fonction pour supprimer définitivement les fichiers et dossiers
+
+## Chrome
+### Options au 1er démarrage de Chrome
+- Navigateur par défaut
+- Ajouter Chrome aux favoris du dock
