@@ -11,6 +11,7 @@ sudo apt install -y sshfs nfs-common xauth cifs-utils
 sudo apt install flatpak gnome-software-plugin-flatpak
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub com.github.jeromerobert.pdfarranger
+sudo flatpak install flathub org.gnome.DejaDup
 # flatpak install flathub com.vscodium.codium
 
 # Google Chrome
