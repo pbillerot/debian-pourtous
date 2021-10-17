@@ -44,3 +44,7 @@
 ### Options au 1er démarrage de Chrome
 - Navigateur par défaut
 - Ajouter Chrome aux favoris du dock
+
+## Sauvegardes
+- le mieux est de choisir Google Drive comme emplacement de sauvegarde
+
