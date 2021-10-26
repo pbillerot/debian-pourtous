@@ -19,6 +19,7 @@
   - Position / Position du panneau : Haut
   - Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
   - Style / Remplacer l'opacité du thème du panneau
+  - Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
 - User themes
 - Ajouter Notes https://extensions.gnome.org/extension/1357/notes/
   - Paramètres : Couleur de la première note : jaune
