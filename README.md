@@ -18,12 +18,13 @@ Script d'installation d'une Debian pour tous
 Dans un terminal
 ```
 su -
-apt install git
+apt install git curl
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
-git clone https://github.com/pbillerot/debian-pourtous.git
-cd debian-pourtous && ./debian-mini.sh
-rmdir -R debian-pourtous
+curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-mini.sh | sh
+#git clone https://github.com/pbillerot/debian-pourtous.git
+#cd debian-pourtous && ./debian-mini.sh
+#rmdir -R debian-pourtous
 reboot
 ```
 
