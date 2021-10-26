@@ -47,8 +47,10 @@
 ```sh
 sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
 sudo usermod -a -G lpadmin <username>
-http://localhost:631
+sudo usermod -a -G scanner <username>
 ```
+http://localhost:631
+
 ## Musique
 - installer Audacious (flathub)
 
