@@ -1,24 +1,24 @@
 #!/usr/bin/env bash
-
+# nous sommen en root
 # Ajouts de paquets standards
-sudo apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
-sudo apt install -y nautilus-image-converter
-sudo apt install -y gthumb zim wget
-sudo apt install -y sshfs nfs-common xauth cifs-utils
-# sudo apt install -y inxi
+apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
+apt install -y nautilus-image-converter
+apt install -y gthumb zim wget
+apt install -y sshfs nfs-common xauth cifs-utils
+# apt install -y inxi
 
 # Ajouts de paquets flatpak
-sudo apt install flatpak gnome-software-plugin-flatpak
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install flathub com.github.jeromerobert.pdfarranger
-sudo flatpak install flathub org.gnome.DejaDup
+apt install flatpak gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.github.jeromerobert.pdfarranger
+flatpak install flathub org.gnome.DejaDup
 # flatpak install flathub com.vscodium.codium
 
 # Google Chrome
-wget -qO - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/googlechrome-linux-keyring.gpg
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-sudo apt-get update
-sudo apt-get install -y google-chrome-stable
+wget -qO - https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/googlechrome-linux-keyring.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | tee /etc/apt/sources.list.d/google-chrome.list
+apt-get update
+apt-get install -y google-chrome-stable
 
 # Gnome + Système
 
