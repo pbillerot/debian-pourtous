@@ -2,7 +2,6 @@
 
 ## Bureau
 - Fond d'écran : clic droit sur bureau
-- Enlever des favoris : Rhythmbox, Writer, Aide
 
 ## Ajustement
 
@@ -23,15 +22,6 @@
 - User themes
 - Ajouter Notes https://extensions.gnome.org/extension/1357/notes/
   - Paramètres : Couleur de la première note : jaune
-
-## Paramètres
-
-### Energie
-- Ecran noir : 10 minutes
-- Misen veille automatique : activée 30 minutes
-
-### Écran
-- Mode nuit
 
 ## Files Nautilus
 
@@ -58,3 +48,25 @@
 ```sh
 sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
 ```
+## Musique
+- installer Audacious (flathub)
+
+## Docks
+- Enlever des favoris : Rhythmbox, Writer, Aide
+
+## Paramètres
+
+### Energie
+- Ecran noir : 10 minutes
+- Misen veille automatique : activée 30 minutes
+
+### Écran
+- Mode nuit
+
+### Application par défaut
+- Site Web : Chrome
+- Courriels : Evolution
+- Calendrier : Agenda
+- Musique : Audacious
+- Vidéos : Vidéos
+- Photos : Visionneuse d'images
