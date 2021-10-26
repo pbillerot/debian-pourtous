@@ -47,6 +47,14 @@
 - Ajouter Chrome aux favoris du dock
 
 ## Sauvegardes
+- installer flathub Sauvegardes Dejadup
 - le mieux est de choisir Google Drive comme emplacement de sauvegarde
 ![image](https://user-images.githubusercontent.com/2213723/137622684-c85757d7-9350-4a85-b645-e7228ecd35fa.png)
 
+## Outils PDF
+- installer PDF Arranger
+
+## Imprimantes
+```sh
+apt install --install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
+```
