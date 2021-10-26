@@ -35,6 +35,8 @@
 ### Options au 1er démarrage de Chrome
 - Navigateur par défaut
 - Ajouter Chrome aux favoris du dock
+- Paramètres / Apparence / Afficher le bouton Accueil
+- Paramètres / Apparence / Afficher la barre de favoris
 
 ## Sauvegardes
 - installer Sauvegardes Déja Dup (flathub)
@@ -47,6 +49,8 @@
 ## Imprimantes
 ```sh
 sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
+sudo usermod -a -G lpadmin <username>
+http://localhost:631
 ```
 ## Musique
 - installer Audacious (flathub)
