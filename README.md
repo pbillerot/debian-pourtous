@@ -22,9 +22,7 @@ apt install git
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
 git clone https://github.com/pbillerot/debian-pourtous.git
-cd debian-pourtous
-./debian-mini.sh
-cd ..
+cd debian-pourtous && ./debian-mini.sh
 rmdir -R debian-pourtous
 reboot
 ```
