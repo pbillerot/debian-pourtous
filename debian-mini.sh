@@ -10,9 +10,6 @@ apt install -y sshfs nfs-common xauth cifs-utils
 # Ajouts de paquets flatpak
 apt install flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.github.jeromerobert.pdfarranger
-flatpak install flathub org.gnome.DejaDup
-# flatpak install flathub com.vscodium.codium
 
 # Google Chrome
 wget -qO - https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/googlechrome-linux-keyring.gpg
