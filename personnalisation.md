@@ -51,6 +51,11 @@ sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hpl
 ## Musique
 - installer Audacious (flathub)
 
+## Blocnote ZIM
+- installer Zim et créer le blocnote par défaut
+- Edition / Préférences / Modification / décocher "Transformer automatiquement en CamelCase"
+- Edition / Préférences / Greffons / décocher "Gestion de version" cocher "Navigateur de fichiers liés"
+
 ## Docks
 - Enlever des favoris : Rhythmbox, Writer, Aide
 
