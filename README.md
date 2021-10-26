@@ -21,20 +21,13 @@ su -
 apt install git
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
-reboot
-```
-puis au boot suivant
-
-Téléchargemnt du script d'installation du noyau des applications
-chrome, flatpak, gthumb, zim
-```
-mkdir Apps 
-cd Apps
 git clone https://github.com/pbillerot/debian-pourtous.git
 cd debian-pourtous
 ./debian-mini.sh
+cd ..
+rmdir -R debian-pourtous
+reboot
 ```
-> Redémarrer la machine 
 
 [Réglages](personnalisation.md)
 
