@@ -56,5 +56,5 @@
 
 ## Imprimantes
 ```sh
-apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
+sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
 ```
