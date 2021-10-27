@@ -78,3 +78,11 @@ http://localhost:631
 - Musique : Audacious
 - Vidéos : Vidéos
 - Photos : Visionneuse d'images
+
+## Microcode Processeurs
+```
+# For Intel processors
+sudo apt install intel-microcode
+# For AMD processors
+sudo apt install amd64-microcode
+```
