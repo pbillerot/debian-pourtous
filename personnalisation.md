@@ -86,3 +86,5 @@ sudo apt install intel-microcode
 # For AMD processors
 sudo apt install amd64-microcode
 ```
+## Chrome Remote Desktop
+remotedesktop.google.com/access
