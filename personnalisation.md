@@ -88,3 +88,6 @@ sudo apt install amd64-microcode
 ```
 ## Chrome Remote Desktop
 remotedesktop.google.com/access
+Pour partager son écran l'ordinateur ne devra pas être géré par le protocole d'affichage Wayland (valeur par défaut) mais par Xorg.
+Par conséquent il faudra choisir **GNOME sur Xorg** au démarrage de la session utilisateur.
+![image](https://user-images.githubusercontent.com/2213723/139436247-b0d5e61f-9066-4caa-8ee8-716ba22c1bd3.png)
