@@ -67,6 +67,7 @@ http://localhost:631
 ### Energie
 - Ecran noir : 10 minutes
 - Misen veille automatique : activée 30 minutes
+- Action du bouton d'extinction : Eteindre
 
 ### Écran
 - Mode nuit
