@@ -22,10 +22,13 @@ apt install git curl
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
 curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-mini.sh | sh
-#git clone https://github.com/pbillerot/debian-pourtous.git
-#cd debian-pourtous && ./debian-mini.sh
-#rmdir -R debian-pourtous
 reboot
+```
+## Mémo installation Drive SSH
+```
+sudo mkdir /volshare
+sudo chown user:user /volshare
+sshfs user@server.com:/volshare /volshare
 ```
 
 [Réglages](personnalisation.md)
