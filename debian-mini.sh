@@ -4,7 +4,7 @@
 apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
 apt install -y nautilus-image-converter
 apt install -y gthumb zim wget
-apt install -y sshfs nfs-common xauth cifs-utils
+apt install -y sshfs nfs-common xauth cifs-utils nnn
 # apt install -y inxi
 
 # Ajouts de paquets flatpak
