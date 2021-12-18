@@ -72,6 +72,11 @@ http://localhost:631
 ### Écran
 - Mode nuit
 
+### Souris et pavé tactile
+- Défilement naturel: non
+- Taper pour cliquer : oui
+- Défilement aux bord : oui
+
 ### Application par défaut
 - Site Web : Chrome
 - Courriels : Evolution
