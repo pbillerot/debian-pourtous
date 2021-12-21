@@ -22,6 +22,8 @@ apt install git curl
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
 curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-mini.sh | sh
+# ou si vous préférez chrome à firefox
+curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-chrome.sh | sh
 reboot
 ```
 ## Mémo installation Drive SSH
