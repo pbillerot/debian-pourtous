@@ -34,11 +34,21 @@
 - Ajouter Chrome aux favoris du dock
 - Paramètres / Apparence / Afficher le bouton Accueil
 - Paramètres / Apparence / Afficher la barre de favoris
+- Importer les Favoris éventuellement
+
+## Firefox
+- Installer via Logiciels
+- Déclarer un compte de synchronisation
+- Importer les favoris éventuellemn
 
 ## Sauvegardes
 - installer Sauvegardes Déja Dup (flathub)
 - le mieux est de choisir Google Drive comme emplacement de sauvegarde
 ![image](https://user-images.githubusercontent.com/2213723/137622684-c85757d7-9350-4a85-b645-e7228ecd35fa.png)
+
+### Évolution
+- réglage Affichage/Agencement/Afficher la barre "À faire"
+- Édition/Comptes/Comptes de messagerie
 
 ## Outils PDF
 - installer PDF Arranger (flathub)
