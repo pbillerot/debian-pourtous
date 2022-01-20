@@ -17,3 +17,8 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.g
 apt-get update
 apt-get install -y google-chrome-stable
 
+# Suppression de LibreOffice
+apt remove --purge libreoffice*
+
+# Installation de OnlyOffice
+flatpak install flathub org.onlyoffice.desktopeditors
