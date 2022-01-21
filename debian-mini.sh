@@ -16,3 +16,7 @@ apt remove --purge libreoffice*
 
 # Installation de OnlyOffice
 flatpak install flathub org.onlyoffice.desktopeditors
+
+# Installation de draw.io
+flatpak install flathub com.jgraph.drawio.desktop
+
