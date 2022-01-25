@@ -11,11 +11,14 @@ apt install -y sshfs nfs-common xauth cifs-utils nnn
 apt install flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-# Suppression de LibreOffice
+# Suppression de LibreOffice .deb
 apt remove --purge libreoffice*
 
 # Installation de OnlyOffice
-flatpak install flathub org.onlyoffice.desktopeditors
+# flatpak install flathub org.onlyoffice.desktopeditors
+
+# Installation de LibreOffice flathub
+flatpak install flathub org.libreoffice.LibreOffice
 
 # Installation de draw.io
 flatpak install flathub com.jgraph.drawio.desktop
