@@ -21,10 +21,10 @@ apt-get install -y google-chrome-stable
 apt remove --purge libreoffice*
 
 # Installation de OnlyOffice
-# flatpak install flathub org.onlyoffice.desktopeditors
+flatpak install flathub org.onlyoffice.desktopeditors
 
 # Installation de LibreOffice flathub
-flatpak install flathub org.libreoffice.LibreOffice
+# flatpak install flathub org.libreoffice.LibreOffice
 
 # Installation de draw.io
 flatpak install flathub com.jgraph.drawio.desktop
