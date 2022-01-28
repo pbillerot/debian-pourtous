@@ -51,7 +51,7 @@
 - Édition/Comptes/Comptes de messagerie
 
 ## Outils PDF
-- installer PDF Arranger (flathub)
+- installer PDF Mix Tool (flathub) pour bricoler (assemblage de pdfs, 2 pages en 1, livret, rotation...)
 
 ## Imprimantes
 ```sh
