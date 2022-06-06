@@ -15,6 +15,8 @@
 - Rhythmbox
 - Shotwell
 - Tux Guitar
+- Grisbi
+- Zim sur volshare/grive
 
 ## Outils
 - Démarreur : à installer sour `~/demarreur`
@@ -49,5 +51,22 @@ Dans `~.local/share/applications`
 Lancer **Startup Applications**
 - volshare `sshfs <user>@<host>:/volshare /volshare`
 
-## Sauvegardes et historiques
+## Favoris
+- Firefox
+- Chrome
+- Geary
+- Calculatrice
+- Fichiers
+- Pop!_Shop
+
+## Confidentialités
+- Historique des fichiers : 30 jours
+- Supprimer automatiquement la corbeille : on
+- Supprimer automatiquement les fichier temporaires : on
+- Prériodicité de suppression automatique : 30 jours
+
+## Sauvegardes
+- Emplacement sur un 2ème disque
+- ou Google Drive
+
 
