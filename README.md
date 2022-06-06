@@ -16,7 +16,7 @@ Script d'installation d'une Debian pour tous
 
 ## Installations des applications
 Dans un terminal
-```
+```bash
 su -
 apt install git curl
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
@@ -27,7 +27,7 @@ curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/deb
 reboot
 ```
 ## Mémo installation Drive SSH
-```
+```bash
 sudo mkdir /volshare
 sudo chown user:user /volshare
 sshfs user@server.com:/volshare /volshare
@@ -35,3 +35,8 @@ sshfs user@server.com:/volshare /volshare
 
 [Réglages](personnalisation.md)
 
+## Connexion SSH
+```bash
+ssh-geygen
+ssh-copy-id -i /home/<user>/.ssh/id_rsa <user>@<host>
+```
