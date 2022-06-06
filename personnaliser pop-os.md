@@ -1,6 +1,6 @@
 # Personnaliser POP-OS
 
-# Applications à installer
+## Applications à installer
 - OnlyOffice
 - Pdf Arranger
 - PDF Mix Tool
@@ -15,6 +15,10 @@
 - Rhythmbox
 - Shotwell
 - Tux Guitar
+
+## Outils
+### Démarreur
+- à à installer sour `~/demarreur`
 
 ## Desktop / Options
 - Barre supérieure 
