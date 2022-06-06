@@ -47,7 +47,7 @@ Dans `~.local/share/applications`
 ## Applications au démarrage
 
 Lancer **Startup Applications**
-- volshare -> `sshfs <user>@<host>:/volshare /volshare`
+- volshare `sshfs <user>@<host>:/volshare /volshare`
 
 ## Sauvegardes et historiques
 
