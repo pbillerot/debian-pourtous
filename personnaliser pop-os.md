@@ -6,6 +6,15 @@
 - PDF Mix Tool
 - Gimp
 - Sauvegardes Déjà Dup
+- VsCodium
+- Audacius
+- Audacity
+- DB Browser for SQLite
+- Inkscape
+- Kodi
+- Rhythmbox
+- Shotwell
+- Tux Guitar
 
 ## Desktop / Options
 - Barre supérieure 
@@ -29,8 +38,12 @@
 Dans `~.local/share/applications`
 - `sshfs-mount-ovh.desktop`
 - `ssh-zim.desktop`
+- `demarreur.desktop`
 
 ## Applications au démarrage
 
 Lancer **Startup Applications**
 - volshare -> `~.local/share/applications/sshfs-mount-ovh.desktop`
+
+## Sauvegardes et historiques
+
