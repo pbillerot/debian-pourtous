@@ -40,6 +40,8 @@
 ## Date et heure
 ( Format de l'heure : 24 heures
 
+## Ecrans
+
 ## Raccourcis d'applications
 Dans `~.local/share/applications`
 - `sshfs-mount-ovh.desktop`
@@ -47,6 +49,7 @@ Dans `~.local/share/applications`
 - `demarreur.desktop`
 
 ## Applications au démarrage
+- Verrouillage automatique de l'écran : off
 
 Lancer **Startup Applications**
 - volshare `sshfs <user>@<host>:/volshare /volshare`
