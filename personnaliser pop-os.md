@@ -17,8 +17,8 @@
 - Tux Guitar
 
 ## Outils
-### Démarreur
-- à à installer sour `~/demarreur`
+- Démarreur : à installer sour `~/demarreur`
+- 
 
 ## Desktop / Options
 - Barre supérieure 
@@ -47,7 +47,7 @@ Dans `~.local/share/applications`
 ## Applications au démarrage
 
 Lancer **Startup Applications**
-- volshare -> `~.local/share/applications/sshfs-mount-ovh.desktop`
+- volshare -> `sshfs <user>@<host>:/volshare /volshare`
 
 ## Sauvegardes et historiques
 
