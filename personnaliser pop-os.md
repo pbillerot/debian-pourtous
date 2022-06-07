@@ -1,7 +1,10 @@
 # Personnaliser POP-OS
 
 ## Applications à installer
+- nautilus-image-converter
 - OnlyOffice
+
+**Expert**
 - Pdf Arranger
 - PDF Mix Tool
 - Gimp
@@ -17,7 +20,7 @@
 - Tux Guitar
 - Grisbi
 - Zim sur volshare/grive
-- Chrome (si nécessaire)
+- Chrome
 
 ## Outils
 - Démarreur : à installer sour `~/demarreur`
@@ -25,13 +28,12 @@
 
 ## Desktop / Options
 - Barre supérieure 
-  - Afficher le bouton des Espaces de travail : off
+  - Afficher le bouton des Espaces de travail : on
   - Afficher le bouton des applications : off
-- Options de fenêtre
-  - Afficher le bounton Maximiser : on
 
-## Desktop / Apparence : light
-
+## Desktop
+- Apparence : light 
+ 
 ## Desktop / Dock
 
 - Etendre le dock jusqu'aux bord de l'écran : off
