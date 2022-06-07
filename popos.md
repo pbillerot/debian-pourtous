@@ -8,6 +8,7 @@
 - sudo apt install nautilus-image-converter
 - OnlyOffice
 - Sauvegardes Déjà Dup
+- Chrome
 
 **Expert**
 - sudo apt install -y gthumb zim
@@ -26,7 +27,6 @@
 - Tux Guitar
 - Grisbi
 - Zim
-- Chrome
 
 ## Outils
 - Démarreur : à installer sour `~/demarreur`
@@ -88,7 +88,10 @@
 
 ## Geary
 - régler sur compte de messagerie du user
- 
+
+## Google
+
+
 ## Raccourcis d'applications
 **si Expert**
 Dans `~.local/share/applications`
@@ -102,7 +105,7 @@ Lancer **Startup Applications**
 - volshare `sshfs <user>@<host>:/volshare /volshare`
 
 ## Favoris
-- Firefox
+- Google
 - Geary
 - Calculatrice
 - Fichiers
