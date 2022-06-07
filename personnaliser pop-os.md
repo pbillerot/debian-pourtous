@@ -115,5 +115,6 @@ Lancer **Startup Applications**
 ## Sauvegardes
 - Emplacement sur un 2ème disque
 - ou Google Drive
+- Mettre **Téléchargement** dans la sauvegarde pour les débutants
 
 
