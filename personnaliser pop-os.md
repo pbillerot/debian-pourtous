@@ -4,6 +4,7 @@
 - sudo apt remove --purge libreoffice*
 - sudo apt install nautilus-image-converter
 - OnlyOffice
+- Sauvegardes Déjà Dup
 
 **Expert**
 - sudo apt install -y gthumb zim
@@ -11,7 +12,6 @@
 - Pdf Arranger
 - PDF Mix Tool
 - Gimp
-- Sauvegardes Déjà Dup
 - VsCodium
 - Audacius
 - Audacity
@@ -22,7 +22,7 @@
 - Shotwell
 - Tux Guitar
 - Grisbi
-- Zim sur volshare/grive
+- Zim
 - Chrome
 
 ## Outils
