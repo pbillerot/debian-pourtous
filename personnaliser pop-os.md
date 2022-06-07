@@ -17,6 +17,7 @@
 - Tux Guitar
 - Grisbi
 - Zim sur volshare/grive
+- Chrome (si nécessaire)
 
 ## Outils
 - Démarreur : à installer sour `~/demarreur`
@@ -38,14 +39,19 @@
 - Taille du Dock : Petit
 
 ## Date et heure
-( Format de l'heure : 24 heures
+- Format de l'heure : 24 heures
 
 ## Ecrans
 - Verrouillage automatique de l'écran : off
 
 ## Firefox
-- General > Language : Français
-- Synchroniser avec le compte de <user>
+- General / Language : Français
+- Synchroniser avec le compte de user
+
+## Comptes en ligne
+- Google avec le compte de user
+  - Agenda
+  - Contacts
 
 ## Raccourcis d'applications
 Dans `~.local/share/applications`
