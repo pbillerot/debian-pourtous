@@ -11,8 +11,8 @@
 - Chrome
 
 **Expert**
-- sudo apt install -y gthumb zim
 - sudo apt install -y sshfs nfs-common cifs-utils nnn
+- gThumb
 - Pdf Arranger
 - PDF Mix Tool
 - Gimp
@@ -29,7 +29,7 @@
 - Zim
 
 ## Outils
-- Démarreur : à installer sour `~/demarreur`
+- Démarreur : à installer sous `~./demarreur`
 - 
 
 **PARAMÈTRES**
