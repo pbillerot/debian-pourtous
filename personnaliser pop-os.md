@@ -1,10 +1,13 @@
 # Personnaliser POP-OS
 
 ## Applications à installer
-- nautilus-image-converter
+- sudo apt remove --purge libreoffice*
+- sudo apt install nautilus-image-converter
 - OnlyOffice
 
 **Expert**
+- sudo apt install -y gthumb zim
+- sudo apt install -y sshfs nfs-common cifs-utils nnn
 - Pdf Arranger
 - PDF Mix Tool
 - Gimp
@@ -26,58 +29,88 @@
 - Démarreur : à installer sour `~/demarreur`
 - 
 
+**PARAMÈTRES**
+
 ## Desktop / Options
 - Barre supérieure 
-  - Afficher le bouton des Espaces de travail : on
+  - Afficher le bouton des Espaces de travail : off
   - Afficher le bouton des applications : off
+- Options fenêtre
+  - Afficher le bouton maximiser : on
 
 ## Desktop
 - Apparence : light 
  
 ## Desktop / Dock
-
 - Etendre le dock jusqu'aux bord de l'écran : off
 - Afficher le Dock à l'écran : Tous les écrans
 - Taille du Dock : Petit
 
-## Date et heure
-- Format de l'heure : 24 heures
+## Desktop / Espace de travail
+- Placement du sélecteur d'espace de travail : Le long du coté droit
 
-## Ecrans
+## Confidentialités / Historique des fichiers et corbeille
+- Historique des fichiers : 30 jours
+- Supprimer automatiquement la corbeille : on
+- Supprimer automatiquement les fichier temporaires : on
+- Périodicité de suppression automatique : 30 jours
+
+## Confidentialités / Ecrans
 - Verrouillage automatique de l'écran : off
-
-## Firefox
-- General / Language : Français
-- Synchroniser avec le compte de user
 
 ## Comptes en ligne
 - Google avec le compte de user
   - Agenda
   - Contacts
 
+## Énergie
+- Mise en veille automatique : 30 mn (si portable)
+
+## Écran
+- Définition au choix du user
+
+## Sours et pavé tactile (si portable)
+- défilement naturel : off
+- défilement sur les bords : on
+
+## Date et heure
+- Format de l'heure : 24 heures
+
+## Os upgrade & Recovery
+- Automatic update : on
+
+## Firefox
+- General / Language : Français
+- Synchroniser avec le compte de user
+
+## Geary
+- régler sur compte de messagerie du user
+ 
 ## Raccourcis d'applications
+**si Expert**
 Dans `~.local/share/applications`
 - `sshfs-mount-ovh.desktop`
 - `ssh-zim.desktop`
 - `demarreur.desktop`
 
 ## Applications au démarrage
+**si Expert**
 Lancer **Startup Applications**
 - volshare `sshfs <user>@<host>:/volshare /volshare`
 
 ## Favoris
 - Firefox
-- Chrome
 - Geary
 - Calculatrice
 - Fichiers
 - Pop!_Shop
 
-## Confidentialités
-- Historique des fichiers : 30 jours
-- Supprimer automatiquement la corbeille : on
-- Supprimer automatiquement les fichier temporaires : on
-- Prériodicité de suppression automatique : 30 jours
+**si Expert**
+- Grisbi
+- Chrome
+- Demarreur
+- Zim
+- VsCodium
 
 ## Sauvegardes
 - Emplacement sur un 2ème disque
