@@ -12,6 +12,7 @@
 
 **Expert**
 - sudo apt install -y sshfs nfs-common cifs-utils nnn
+- Capture d'écran
 - gThumb
 - Pdf Arranger
 - PDF Mix Tool
