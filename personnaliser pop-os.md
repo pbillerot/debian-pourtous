@@ -116,5 +116,7 @@ Lancer **Startup Applications**
 - Emplacement sur un 2ème disque
 - ou Google Drive
 - Mettre **Téléchargement** dans la sauvegarde pour les débutants
+- Paramètres / Sauvegarde automatiquement
+- Paramètres / Conserver au moins 3 mois
 
 
