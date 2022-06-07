@@ -99,11 +99,6 @@ Dans `~.local/share/applications`
 - `ssh-zim.desktop`
 - `demarreur.desktop`
 
-## Applications au démarrage
-**si Expert**
-Lancer **Startup Applications**
-- volshare `sshfs <user>@<host>:/volshare /volshare`
-
 ## Favoris
 - Google
 - Geary
@@ -124,3 +119,21 @@ Lancer **Startup Applications**
 - Mettre **Téléchargement** dans la sauvegarde pour les débutants
 - Paramètres / Sauvegarde automatiquement
 - Paramètres / Conserver au moins 3 mois
+
+## Connexion SSH
+```bash
+ssh-keygen
+ssh-copy-id -i /home/billerot/.ssh/id_rsa user@host
+```
+
+## Mémo installation Drive SSH
+```bash
+sudo mkdir /volshare
+sudo chown user:user /volshare
+sshfs user@host:/volshare /volshare
+```
+
+## Applications au démarrage
+Lancer **Startup Applications**
+- volshare `sshfs user@host:/volshare /volshare`
+
