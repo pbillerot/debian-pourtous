@@ -43,6 +43,10 @@
 ## Ecrans
 - Verrouillage automatique de l'écran : off
 
+## Firefox
+- General > Language : Français
+- Synchroniser avec le compte de <user>
+
 ## Raccourcis d'applications
 Dans `~.local/share/applications`
 - `sshfs-mount-ovh.desktop`
