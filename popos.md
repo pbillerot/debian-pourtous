@@ -34,7 +34,7 @@
 - 
 
 **Extensions**
-Installer l'extension Dash to panel
+Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau supérieur
 - `sudo apt install gnome-shell-extension-dash-to-panel`
 - l'activer dans firefox gnome extension
 
@@ -154,7 +154,3 @@ sshfs user@host:/volshare /volshare
 ## Applications au démarrage
 Lancer **Startup Applications**
 - volshare `sshfs user@host:/volshare /volshare`
-
-## Substitution Pop Dock par Dash to Panel
-dans 
-
