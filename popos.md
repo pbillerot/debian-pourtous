@@ -33,9 +33,26 @@
 - Démarreur : à installer sous `~./demarreur`
 - 
 
+**Extensions**
+Installer l'extension Dash to panel
+- `sudo apt install gnome-shell-extension-dash-to-panel`
+- l'activer dans firefox gnome extension
+
+**Paramètres Dash to Panel** (clic droit barre du haut du bureau)
+  - Position / Position du panneau : Haut
+  - Position / mettre Tous les boutons en visible visible 
+  - Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
+  - Style / Remplacer l'opacité du thème du panneau
+  - Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
+
+**Extensions**
+- Cosmic Dock : off
+- Pop Shell : off
+
 **PARAMÈTRES**
 
 ## Desktop / Options
+- Action de la touche **Super** : Espace de travail
 - Barre supérieure 
   - Afficher le bouton des Espaces de travail : off
   - Afficher le bouton des applications : off
@@ -46,12 +63,12 @@
 - Apparence : light 
  
 ## Desktop / Dock
-- Etendre le dock jusqu'aux bord de l'écran : off
-- Afficher le Dock à l'écran : Tous les écrans
-- Taille du Dock : Petit
+- Activer le Dock : off
+- Options : mettre tout à Off
+- Visibilité du Dock : Toujours masquer
 
 ## Desktop / Espace de travail
-- Placement du sélecteur d'espace de travail : Le long du coté droit
+- ras
 
 ## Confidentialités / Historique des fichiers et corbeille
 - Historique des fichiers : 30 jours
@@ -137,4 +154,7 @@ sshfs user@host:/volshare /volshare
 ## Applications au démarrage
 Lancer **Startup Applications**
 - volshare `sshfs user@host:/volshare /volshare`
+
+## Substitution Pop Dock par Dash to Panel
+dans 
 
