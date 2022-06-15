@@ -1,6 +1,6 @@
 # Installer Pop!_os
 
-![Pop!_Os](https://user-images.githubusercontent.com/2213723/173556334-71be4dd4-5dbe-4093-a663-cd719c61bfbf.png)
+![Pop!_Os](https://user-images.githubusercontent.com/2213723/173905533-bf3cc79b-c717-4948-b35c-debf60e077c2.png)
 
 
 ## Applications à installer
