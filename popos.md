@@ -28,10 +28,10 @@
 - Tux Guitar
 - Grisbi
 - Zim
+- neofetch (pour connaître la version des composants du système)
 
 ## Outils
 - Démarreur : à installer sous `~./demarreur`
-- 
 
 ## GNOME Extensions
 Ajout de **Ajustement**
