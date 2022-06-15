@@ -100,7 +100,7 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 - défilement sur les bords : on
 
 ## Accessibilité
-- Vision : Activer les animations : off (car bug lors du réveil de l'écran, le panneau supérieur n'est plau affiché - Alt+F2 + r) 
+- Vision : Activer les animations : off (car bug lors du réveil de l'écran, le panneau supérieur n'est plus affiché - Alt+F2 + r) 
 
 ## Date et heure
 - Format de l'heure : 24 heures
