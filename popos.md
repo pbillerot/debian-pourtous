@@ -99,6 +99,9 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 - défilement naturel : off
 - défilement sur les bords : on
 
+## Accessibilité
+- Vision : Activer les animations : off
+
 ## Date et heure
 - Format de l'heure : 24 heures
 
