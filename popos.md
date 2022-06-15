@@ -68,8 +68,9 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 - Apparence : light 
  
 ### Desktop / Dock
-- Activer le Dock : off
-- Options : mettre tout à Off
+- Activer le Dock : on
+- Options du Dock : Afficher les espaces de travail dans le Dock : on
+- Options du Dock : Afficher les applications dans le Dock : on
 - Visibilité du Dock : Toujours masquer
 
 ### Desktop / Espace de travail
