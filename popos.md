@@ -33,25 +33,30 @@
 - Démarreur : à installer sous `~./demarreur`
 - 
 
-**Extensions**
+## GNOME Extensions
+Ajout de **Ajustement**
+- `sudo apt install gnome-tweaks`
 Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau supérieur
 - `sudo apt install gnome-shell-extension-dash-to-panel`
 - l'activer dans firefox gnome extension
 
-**Paramètres Dash to Panel** (clic droit barre du haut du bureau)
-  - Position / Position du panneau : Haut
-  - Position / mettre Tous les boutons en visible visible 
-  - Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
-  - Style / Remplacer l'opacité du thème du panneau
-  - Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
+### Ajustement
+- Barre supérieure / Horloge / Jour de semaine : On
+
+### Paramètres Dash to Panel (clic droit barre du haut du bureau)
+- Position / Position du panneau : Haut
+- Position / mettre Tous les boutons en visible visible 
+- Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
+- Style / Remplacer l'opacité du thème du panneau
+- Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
 
 **Extensions**
 - Cosmic Dock : off
 - Pop Shell : off
 
-**PARAMÈTRES**
+## PARAMÈTRES
 
-## Desktop / Options
+### Desktop / Options
 - Action de la touche **Super** : Espace de travail
 - Barre supérieure 
   - Afficher le bouton des Espaces de travail : off
@@ -59,24 +64,24 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 - Options fenêtre
   - Afficher le bouton maximiser : on
 
-## Desktop
+### Desktop
 - Apparence : light 
  
-## Desktop / Dock
+### Desktop / Dock
 - Activer le Dock : off
 - Options : mettre tout à Off
 - Visibilité du Dock : Toujours masquer
 
-## Desktop / Espace de travail
+### Desktop / Espace de travail
 - ras
 
-## Confidentialités / Historique des fichiers et corbeille
+### Confidentialités / Historique des fichiers et corbeille
 - Historique des fichiers : 30 jours
 - Supprimer automatiquement la corbeille : on
 - Supprimer automatiquement les fichier temporaires : on
 - Périodicité de suppression automatique : 30 jours
 
-## Confidentialités / Ecrans
+### Confidentialités / Ecrans
 - Verrouillage automatique de l'écran : off
 
 ## Comptes en ligne
