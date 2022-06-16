@@ -45,13 +45,13 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 
 ### Paramètres Dash to Panel (clic droit barre du haut du bureau)
 - Position / Position du panneau : Haut
-- Position / mettre Tous les boutons en visible visible 
+- Position / Tous les boutons en visible visible (sauf le 1er)
 - Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
 - Style / Remplacer l'opacité du thème du panneau
 - Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
 
 **Extensions**
-- Cosmic Dock : off
+- Cosmic Dock : on
 - Pop Shell : off
 
 ## PARAMÈTRES
@@ -68,8 +68,8 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 - Apparence : light 
  
 ### Desktop / Dock
-- Activer le Dock : on
-- Options du Dock : Afficher les espaces de travail dans le Dock : on
+- Activer le Dock : off
+- Options du Dock : Afficher les espaces de travail dans le Dock : off
 - Options du Dock : Afficher les applications dans le Dock : on
 - Visibilité du Dock : Toujours masquer
 
