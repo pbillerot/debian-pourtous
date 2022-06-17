@@ -12,7 +12,6 @@
 
 **Expert**
 - sudo apt install -y sshfs nfs-common cifs-utils nnn
-- Capture d'écran
 - gThumb
 - Pdf Arranger
 - PDF Mix Tool
@@ -29,35 +28,11 @@
 - Grisbi
 - Zim
 - neofetch (pour connaître la version des composants du système)
-
-## Outils
-- Démarreur : à installer sous `~./demarreur`
-
-## GNOME Extensions
-Ajout de **Ajustement**
-- `sudo apt install gnome-tweaks`
-Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau supérieur
-- `sudo apt install gnome-shell-extension-dash-to-panel`
-- l'activer dans firefox gnome extension
-
-### Ajustement
-- Barre supérieure / Horloge / Jour de semaine : On
-
-### Paramètres Dash to Panel (clic droit barre du haut du bureau)
-- Position / Position du panneau : Haut
-- Position / Tous les boutons en visible visible (sauf le 1er)
-- Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
-- Style / Remplacer l'opacité du thème du panneau
-- Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
-
-**Extensions**
-- Cosmic Dock : on
-- Pop Shell : off
+- gnome-tweaks (Ajustement dans PopShop)
 
 ## PARAMÈTRES
 
 ### Desktop / Options
-- Action de la touche **Super** : Espace de travail
 - Barre supérieure 
   - Afficher le bouton des Espaces de travail : off
   - Afficher le bouton des applications : off
@@ -68,10 +43,7 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 - Apparence : light 
  
 ### Desktop / Dock
-- Activer le Dock : off
-- Options du Dock : Afficher les espaces de travail dans le Dock : off
-- Options du Dock : Afficher les applications dans le Dock : on
-- Visibilité du Dock : Toujours masquer
+- Visibilité du Dock : Toujours afficher
 
 ### Desktop / Espace de travail
 - ras
@@ -119,13 +91,6 @@ Ajout de l'extension **Dash to panel** pour substituer le Dock dans le panneau s
 ## Google
 
 
-## Raccourcis d'applications
-**si Expert**
-Dans `~.local/share/applications`
-- `sshfs-mount-ovh.desktop`
-- `ssh-zim.desktop`
-- `demarreur.desktop`
-
 ## Favoris
 - Google
 - Geary
@@ -159,7 +124,15 @@ sudo mkdir /volshare
 sudo chown user:user /volshare
 sshfs user@host:/volshare /volshare
 ```
+## Raccourcis d'applications
+**si Expert**
+Dans `~.local/share/applications`
+- `sshfs-mount-ovh.desktop`
+- `ssh-zim.desktop`
+- `demarreur.desktop`
 
 ## Applications au démarrage
 Lancer **Startup Applications**
 - volshare `sshfs user@host:/volshare /volshare`
+ou dans Ajustement
+- dans application au démarrage ajout Mount OVH
