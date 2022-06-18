@@ -1,5 +1,6 @@
 # Installer Pop!_Os
 
+![Pop!_Os](https://user-images.githubusercontent.com/2213723/174439185-98d56a9f-09c3-436d-a9f3-8f28ebc458b6.png)
 
 ## Applications à installer
 - sudo apt remove --purge libreoffice*
