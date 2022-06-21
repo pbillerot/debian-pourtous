@@ -10,7 +10,7 @@
 - Chrome
 
 **Expert**
-- sudo apt install -y sshfs nfs-common cifs-utils nnn
+- `sudo apt install -y sshfs nfs-common cifs-utils nnn moreutils neofetch`
 - gThumb
 - Pdf Arranger
 - PDF Mix Tool
@@ -26,7 +26,6 @@
 - Tux Guitar
 - Grisbi
 - Zim
-- neofetch (pour connaître la version des composants du système)
 - gnome-tweaks (Ajustement dans PopShop)
 
 ## PARAMÈTRES
