@@ -14,12 +14,4 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # Suppression de LibreOffice .deb
 apt remove --purge libreoffice*
 
-# Installation de OnlyOffice
-flatpak install flathub org.onlyoffice.desktopeditors
-
-# Installation de LibreOffice flathub
-# flatpak install flathub org.libreoffice.LibreOffice
-
-# Installation de draw.io
-# flatpak install flathub com.jgraph.drawio.desktop
 
