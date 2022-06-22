@@ -20,5 +20,3 @@ apt-get install -y google-chrome-stable
 # Suppression de LibreOffice
 apt remove --purge libreoffice*
 
-# Installation de OnlyOffice
-flatpak install flathub org.onlyoffice.desktopeditors
