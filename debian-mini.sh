@@ -21,5 +21,5 @@ flatpak install flathub org.onlyoffice.desktopeditors
 # flatpak install flathub org.libreoffice.LibreOffice
 
 # Installation de draw.io
-flatpak install flathub com.jgraph.drawio.desktop
+# flatpak install flathub com.jgraph.drawio.desktop
 
