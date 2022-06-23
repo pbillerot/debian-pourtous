@@ -20,3 +20,6 @@ apt-get install -y google-chrome-stable
 # Suppression de LibreOffice
 apt remove --purge libreoffice*
 
+# Lecteur des mails
+apt remove evolution
+apt install geary
