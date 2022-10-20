@@ -17,13 +17,13 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # apt-get update
 # apt-get install -y google-chrome-stable
 # Installons plutôt par flathub
-flatpak install com.google.Chrome
+flatpak install flathub com.google.Chrome
 
 # Suppression de LibreOffice
 apt remove --purge libreoffice*
 
 # Installation d'Onlyoffice
-flatpak install org.onlyoffice.desktopeditors
+flatpak install flathub org.onlyoffice.desktopeditors
 
 # Lecteur des mails
 apt remove evolution
