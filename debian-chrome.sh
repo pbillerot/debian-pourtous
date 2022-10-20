@@ -12,14 +12,20 @@ apt install flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Google Chrome
-wget -qO - https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/googlechrome-linux-keyring.gpg
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | tee /etc/apt/sources.list.d/google-chrome.list
-apt-get update
-apt-get install -y google-chrome-stable
+# wget -qO - https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/googlechrome-linux-keyring.gpg
+# echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | tee /etc/apt/sources.list.d/google-chrome.list
+# apt-get update
+# apt-get install -y google-chrome-stable
+# Installons plutôt par flathub
+flatpak install com.google.Chrome
 
 # Suppression de LibreOffice
 apt remove --purge libreoffice*
 
+# Installation d'Onlyoffice
+flatpak install org.onlyoffice.desktopeditors
+
 # Lecteur des mails
 apt remove evolution
 apt install geary
+
