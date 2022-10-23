@@ -18,15 +18,16 @@
 - VsCodium
 - Audacius
 - Audacity
-- DB Browser for SQLite
+- DB Browser for SQLite .deb
 - Inkscape
 - Kodi
 - Rhythmbox
 - Shotwell
 - Tux Guitar
 - Grisbi
-- Zim
+- Zim .deb
 - gnome-tweaks (Ajustement dans PopShop)
+- thonny .deb
 
 ## PARAMÈTRES
 
@@ -114,6 +115,9 @@
 ```bash
 ssh-keygen
 ssh-copy-id -i /home/billerot/.ssh/id_rsa user@host
+# github
+ssh-keygen -t ed25519 -C "philippe.billerot@gmail.com"
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 ```
 
 ## Mémo installation Drive SSH
@@ -126,8 +130,8 @@ sshfs user@host:/volshare /volshare
 **si Expert**
 Dans `~.local/share/applications`
 - `sshfs-mount-ovh.desktop`
-- `ssh-zim.desktop`
-- `demarreur.desktop`
+- `zim-grive.desktop`
+- `OVH open.desktop`
 
 ## Applications au démarrage
 Lancer **Startup Applications**
