@@ -132,6 +132,8 @@ Dans `~.local/share/applications`
 - `sshfs-mount-ovh.desktop`
 - `zim-grive.desktop`
 - `OVH open.desktop`
+- `.technique/sync-USBDATA-volshare.desktop`
+- `.technique/sync-volshare-USBDATA.desktop`
 
 ## Applications au démarrage
 Lancer **Startup Applications**
