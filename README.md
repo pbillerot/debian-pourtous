@@ -32,6 +32,10 @@ sudo mkdir /volshare
 sudo chown user:user /volshare
 sshfs user@server.com:/volshare /volshare
 ```
+## Montage NAS sur Sandisk
+```bash
+sudo ln -s /media/<user>/SanDisk/nas /nas
+```
 
 [Réglages](personnalisation.md)
 
