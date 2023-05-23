@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # nous sommes en root
 # Ajouts de paquets standards
-apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
+# vérifier avant https://github.com/fthx/dashbar
+# apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
 apt install -y nautilus-image-converter
 apt install -y gthumb zim wget
 apt install -y sshfs nfs-common xauth cifs-utils nnn
@@ -20,12 +21,14 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install flathub com.google.Chrome
 
 # Suppression de LibreOffice
-apt remove --purge libreoffice*
+# 23 mai 2023 on garde libreoffice
+# apt remove --purge libreoffice*
 
 # Installation d'Onlyoffice
-flatpak install flathub org.onlyoffice.desktopeditors
+# flatpak install flathub org.onlyoffice.desktopeditors
 
 # Lecteur des mails
-apt remove evolution
-apt install geary
+# 23 mai 2023 on garde evolution
+# apt remove evolution
+# apt install geary
 
