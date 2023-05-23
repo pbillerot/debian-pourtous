@@ -26,6 +26,8 @@ curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/deb
 curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-chrome.sh | sh
 reboot
 ```
+après le boot lors du login choisir le gestionnaire Xorg accessible via la roue dentée en bas à droite
+
 ## Mémo installation Drive SSH
 ```bash
 sudo mkdir /volshare
