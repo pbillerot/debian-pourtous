@@ -21,13 +21,15 @@ su -
 apt install git curl
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
+# dans firefox rechercher github pbillerot pour copier la commande suivante
 curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-mini.sh | sh
-# ou si vous préférez chrome à firefox
-curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-chrome.sh | sh
 reboot
 ```
-après le boot lors du login choisir le gestionnaire Xorg accessible via la roue dentée en bas à droite
+- à vérifier si nécessaire sans chrome
+- après le boot lors du login choisir le gestionnaire Xorg accessible via la roue dentée en bas à droite
 
+
+- mettre dans debian-drive.md
 ## Mémo installation Drive SSH
 ```bash
 sudo mkdir /volshare

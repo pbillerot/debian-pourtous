@@ -2,6 +2,7 @@
 
 ## Bureau
 - Fond d'écran : clic droit sur bureau
+- choisir une définition d'écran adaptée
 
 ## Ajustement
 
@@ -15,6 +16,8 @@
 
 ### Extensions
 - Dash to panel
+- dans firefox rechercher extensions gnome et l'installer dans firefox
+- dans les extensions installées on devrait trouver `Dash to Panel` et l'activer et le paramétrer
   - Position / Position du panneau : Haut
   - Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
   - Style / Remplacer l'opacité du thème du panneau
@@ -37,9 +40,8 @@
 - Importer les Favoris éventuellement
 
 ## Firefox
-- Installer via Logiciels
 - Déclarer un compte de synchronisation
-- Importer les favoris éventuellemn
+- Importer les favoris éventuellement
 
 ## Sauvegardes
 - installer Sauvegardes Déja Dup (flathub)
