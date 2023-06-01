@@ -9,6 +9,11 @@ echo LOGICIELS FLATPAK : ${USER} >>DEBIAN-${USER}.TXT
 flatpak list >>DEBIAN-${USER}.TXT
 
 echo LOGICIELS APT : ${USER} >>DEBIAN-${USER}.TXT
-apt list | grep [installé] >>DEBIAN-${USER}.TXT
+#apt list | grep [installé] >>DEBIAN-${USER}.TXT
+
+(zcat $(ls -tr /var/log/apt/history.log*.gz); cat /var/log/apt/history.log) 2>/dev/null |
+  egrep '^(Start-Date:|Commandline:)' |
+  grep -v aptdaemon |
+  egrep '^Commandline:'>>DEBIAN-${USER}.TXT
 
 cat DEBIAN-${USER}.TXT
