@@ -9,6 +9,6 @@ echo LOGICIELS FLATPAK : ${USER} >>DEBIAN-${USER}.TXT
 flatpak list >>DEBIAN-${USER}.TXT
 
 echo LOGICIELS APT : ${USER} >>DEBIAN-${USER}.TXT
-apt list | grep install >>DEBIAN-${USER}.TXT
+apt list | grep [installé] >>DEBIAN-${USER}.TXT
 
 cat DEBIAN-${USER}.TXT
