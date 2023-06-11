@@ -3,7 +3,7 @@
 # curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-status.sh | sh
 
 echo *** ETAT DE LA MACHINE : ${USER} >DEBIAN-${USER}.TXT
-inxi -F >>DEBIAN-${USER}.TXT
+neofetch -stdout >>DEBIAN-${USER}.TXT
 
 echo ***
 echo *** LOGICIELS FLATPAK : ${USER} >>DEBIAN-${USER}.TXT

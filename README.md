@@ -21,7 +21,7 @@ su -
 apt install git curl
 # apt install spice-vdagent (si dans VM pour partager le presse-papier)
 adduser <compte> sudo
-# dans firefox rechercher github pbillerot pour copier la commande suivante
+# dans firefox rechercher `github pbillerot` pour copier la commande suivante
 curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-mini.sh | sh
 reboot
 ```
@@ -30,21 +30,15 @@ reboot
 
 
 - mettre dans debian-drive.md
-## Mémo installation Drive SSH
-```bash
-sudo mkdir /volshare
-sudo chown user:user /volshare
-sshfs user@server.com:/volshare /volshare
-```
-## Montage NAS sur Sandisk
-```bash
-sudo ln -s /media/<user>/SanDisk/nas /nas
-```
 
-[Réglages](personnalisation.md)
+## Bureau Dash to panel
+- Lancer l'application `Extensions`
+- dans les extensions installées on devrait trouver `Dash to Panel`, l'activer et paramétrer
+  - Position / Position du panneau : Haut
+  - Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
+  - Style / Remplacer l'opacité du thème du panneau
+  - Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
 
-## Connexion SSH
-```bash
-ssh-geygen
-ssh-copy-id -i /home/<user>/.ssh/id_rsa <user>@<host>
-```
+
+[Réglages](debian personnalisation.md)
+
