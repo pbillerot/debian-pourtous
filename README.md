@@ -6,8 +6,8 @@ Script d'installation d'une Debian pour tous
 
 ## Préalables :
 - Créer une image iso de la Debian à partir de la version la plus stable sur une clé usb
-- https://cdimage.debian.org/cdimage/unofficial/non-free/firmware/
-- Debian 11 Bullseye ```firmware-11.7.0-amd64-netinst.iso``` à la date 23 mai 2023
+- https://cdimage.debian.org/debian-cd/12.0.0/amd64/iso-cd/
+- Debian 12 Bookworm ```debian-12.0.0-amd64-netinst.iso)``` à la date 11 juin 2023
 
 ## Installation de Debian sur la machine cible :
 - Créer une clé USB avec l'iso téléchargé
