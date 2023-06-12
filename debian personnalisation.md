@@ -88,4 +88,9 @@ sudo usermod -a -G scanner <username>
 ```
 http://localhost:631
 
+### Samsung M2070
+- télécharger `driver/uld.*tar.gz`
+- `sudo ./install-printer.sh`
+- `sudo ./install-scanner.sh`
+- puis paramètre / ajout d'une imprimante n°ip 192.168.1.99 (chez moi)
 
