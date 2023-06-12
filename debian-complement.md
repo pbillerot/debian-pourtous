@@ -6,6 +6,10 @@ Compléments à installer à partir de **Logiciels**
 sudo ln -s /media/<user>/SanDisk/nas /nas
 ```
 
+## Commande shell ll
+- `alias ll='ls -lh'`
+- à ajouter dans file://~.bashrc
+
 ## Blocnote ZIM
 - installer Zim et créer le blocnote par défaut
 - Edition / Préférences / Modification / décocher "Transformer automatiquement en CamelCase"
@@ -60,45 +64,9 @@ ssh-copy-id -i /home/user/.ssh/id_rsa user@host
 ```
 ```bash
 # Accès au répertoire
+sudo mkdir /volshare
+sudo chown user:user /volshare
 sshfs user@host:/volshare /volshare
 ```
-
-- Connexion au répertoire
-- à `volshare.desktop` à recopier dans applications au démarrage
-```bash
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Exec=sshfs user@host:/volshare /volshare
-Name=Mount volshare
-Comment=Montage de /volshare via ssh sur host
-Icon=folder-remote
-```
-
-- `openssh.desktop` Ouverture d'une session SSH
-```bash
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Exec=gnome-terminal -- ssh user@host
-Name=SSH HOST
-Comment=Ouverture d'une session SSH sur le serveur
-Icon=xterm
-```
-
-- `synchro.desktop` Synchro volshare sur USBDATA
-```bash
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=true
-Exec=bash -c "rsync -av --delete /volshare/USBDATA/ /media/user/USBDATA/ ; read -p 'Entrer pour fermer'"
-Name=Synchro volshare USBDATA
-Comment=Synchro de /volshare/USBDATA/ sur /media/user/USBDATA/
-Icon=document-save
-```
+- copier les `desktop/fichiers.desktop` sur `~.local/share/applications`
+- Ajustements / Applications au démarrage ajouter `Mount SSH volshare`

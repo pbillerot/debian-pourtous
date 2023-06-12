@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sshfs debian@billerot.eu:/volshare /volshare
+Name=Mount SSH volshare
+Comment=Montage de /volshare via ssh
+Icon=folder-remote
+
+

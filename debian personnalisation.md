@@ -14,7 +14,6 @@
 - Minimiser
 
 ### Barre supérieure
-- Pourcentage batterie
 - Jour semaine
 
 ## Application Files Nautilus
@@ -47,6 +46,7 @@
 - Ecran noir : 10 minutes
 - Mise en veille automatique : activée 30 minutes
 - Action du bouton d'extinction : Eteindre
+- Pourcentage batterie
 
 ### Souris et pavé tactile
 - Défilement naturel: non
