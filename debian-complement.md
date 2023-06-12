@@ -52,41 +52,45 @@ sshfs user@server.com:/volshare /volshare
 ```
 
 ### sur le client
+- en préalable
 ```bash
-# copie de la clé sur le serveur
+# copie de la clé public SSH sur le serveur
 ssh-geygen
-ssh-copy-id -i /home/<user>/.ssh/id_rsa <user>@<host>
+ssh-copy-id -i /home/user/.ssh/id_rsa user@host
 ```
 ```bash
 # Accès au répertoire
-sshfs user@server:/volshare /volshare
+sshfs user@host:/volshare /volshare
 ```
 
-Connexion au répertoire
+- Connexion au répertoire
+- à `volshare.desktop` à recopier dans applications au démarrage
 ```bash
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
 Type=Application
 Terminal=false
-Exec=sshfs user@server:/volshare /volshare
+Exec=sshfs user@host:/volshare /volshare
 Name=Mount volshare
-Comment=Montage de /volshare via ssh
+Comment=Montage de /volshare via ssh sur host
 Icon=folder-remote
 ```
-Ouverture d'une session SSH
+
+- `openssh.desktop` Ouverture d'une session SSH
 ```bash
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
 Type=Application
 Terminal=false
-Exec=gnome-terminal -- ssh user@server
-Name=SSH OVH
+Exec=gnome-terminal -- ssh user@host
+Name=SSH HOST
 Comment=Ouverture d'une session SSH sur le serveur
 Icon=xterm
 ```
-Synchro volshare USBDATA
+
+- `synchro.desktop` Synchro volshare sur USBDATA
 ```bash
 #!/usr/bin/env xdg-open
 [Desktop Entry]
