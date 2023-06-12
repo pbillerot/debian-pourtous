@@ -1,21 +1,9 @@
 
 Compléments à installer à partir de **Logiciels**
 
-## Installation Drive SSH
-```bash
-sudo mkdir /volshare
-sudo chown user:user /volshare
-sshfs user@server.com:/volshare /volshare
-```
 ## Montage NAS sur Sandisk
 ```bash
 sudo ln -s /media/<user>/SanDisk/nas /nas
-```
-
-## Connexion SSH sur un serveur
-```bash
-ssh-geygen
-ssh-copy-id -i /home/<user>/.ssh/id_rsa <user>@<host>
 ```
 
 ## Blocnote ZIM
@@ -23,22 +11,18 @@ ssh-copy-id -i /home/<user>/.ssh/id_rsa <user>@<host>
 - Edition / Préférences / Modification / décocher "Transformer automatiquement en CamelCase"
 - Edition / Préférences / Greffons / décocher "Gestion de version" cocher "Navigateur de fichiers liés"
 
+## Utilisateur avancé
+- Audacity
+- Gimp (deb)
+- Tux Guitar
+
 ## Chrome
 ### Options au 1er démarrage de Chrome
-- Navigateur par défaut
-- Ajouter Chrome aux favoris du dock
-- Paramètres / Apparence / Afficher le bouton Accueil
-- Paramètres / Apparence / Afficher la barre de favoris
-- Importer les Favoris éventuellement
-
-## Utilisateur avancé
-
 - chrome (flathub)
-- Audacity
-- Pdf Arranger
-- PDF Mix Tool
-- Gimp
-- Tux Guitar
+- Navigateur par défaut ?
+- Ajouter Chrome aux favoris du dock
+- Paramètres / Apparence / `Afficher le bouton Accueil`
+- Paramètres / Apparence / `Afficher la barre de favoris`
 
 ## Pour développeur
 
@@ -50,8 +34,67 @@ ssh-copy-id -i /home/<user>/.ssh/id_rsa <user>@<host>
 - Zim .deb
 - thonny .deb
 
-## Chrome Remote Desktop
-remotedesktop.google.com/access
-Pour partager son écran l'ordinateur ne devra pas être géré par le protocole d'affichage Wayland (valeur par défaut) mais par Xorg.
-Par conséquent il faudra choisir **GNOME sur Xorg** au démarrage de la session utilisateur.
-![image](https://user-images.githubusercontent.com/2213723/139436247-b0d5e61f-9066-4caa-8ee8-716ba22c1bd3.png)
+## SSH
+### sur le Serveur SSH
+- `sudo apt-get install openssh-server`
+- Changez le port par défaut du serveur ssh
+    (Cela réduit les risques d'attaques)
+- Modifiez le fichier `/etc/ssh/sshd_config`
+- sudo nano /etc/ssh/sshd_config
+    - décommenter
+    - PubkeyAuthentication yes
+
+```bash
+# partage de répertoire
+sudo mkdir /volshare
+sudo chown user:user /volshare
+sshfs user@server.com:/volshare /volshare
+```
+
+### sur le client
+```bash
+# copie de la clé sur le serveur
+ssh-geygen
+ssh-copy-id -i /home/<user>/.ssh/id_rsa <user>@<host>
+```
+```bash
+# Accès au répertoire
+sshfs user@server:/volshare /volshare
+```
+
+Connexion au répertoire
+```bash
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sshfs user@server:/volshare /volshare
+Name=Mount volshare
+Comment=Montage de /volshare via ssh
+Icon=folder-remote
+```
+Ouverture d'une session SSH
+```bash
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=gnome-terminal -- ssh user@server
+Name=SSH OVH
+Comment=Ouverture d'une session SSH sur le serveur
+Icon=xterm
+```
+Synchro volshare USBDATA
+```bash
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c "rsync -av --delete /volshare/USBDATA/ /media/user/USBDATA/ ; read -p 'Entrer pour fermer'"
+Name=Synchro volshare USBDATA
+Comment=Synchro de /volshare/USBDATA/ sur /media/user/USBDATA/
+Icon=document-save
+```
