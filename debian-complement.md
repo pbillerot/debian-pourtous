@@ -70,3 +70,17 @@ sshfs user@host:/volshare /volshare
 ```
 - copier les `desktop/fichiers.desktop` sur `~.local/share/applications`
 - Ajustements / Applications au démarrage ajouter `Mount SSH volshare`
+
+## Git config
+fichier `~.gitconfig`
+```ini
+[user]
+	email = myemailt@gmail.com
+	name = pbillerot
+[pull]
+	rebase = merges
+[credential]
+	helper = store --file /home/billerot/.git-credentials
+[core]
+	editor = vi
+```
