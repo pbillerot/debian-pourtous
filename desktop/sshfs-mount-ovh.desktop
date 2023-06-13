@@ -3,7 +3,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=sshfs user@host:/volshare /volshare
+Exec=sshfs debian@billerot.eu:/volshare /volshare
 Name=Mount SSH volshare
 Comment=Montage de /volshare via ssh
 Icon=folder-remote
