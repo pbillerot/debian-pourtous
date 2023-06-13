@@ -4,7 +4,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Exec=gnome-terminal -- ssh debian@billerot.eu
-Name=SSH sur OVH
+Name=Term. SSH sur OVH
 Comment=Ouverture d'une session SSH sur le serveur OVH
-Icon=terminal
+Icon=utilities-terminal
 

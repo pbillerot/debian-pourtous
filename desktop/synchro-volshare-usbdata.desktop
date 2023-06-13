@@ -3,7 +3,7 @@
 Version=1.0
 Type=Application
 Terminal=true
-Exec=bash -c "rsync -av --delete /volshare/USBDATA/ /media/user/USBDATA/ ; read -p 'Entrer pour fermer'"
+Exec=bash -c "rsync -av --delete /volshare/USBDATA/ /media/billerot/data/ ; read -p 'Entrer pour fermer'"
 Name=Synchro volshare USBDATA
 Comment=Synchro de /volshare/USBDATA/ sur /media/user/USBDATA/
 Icon=document-save
