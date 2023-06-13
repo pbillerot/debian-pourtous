@@ -86,11 +86,12 @@ sudo usermod -a -G lpadmin <username>
 sudo usermod -a -G scanner <username>
 sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
 ```
-http://localhost:631
 
 ### Samsung M2070
 - télécharger `driver/uld.*tar.gz`
 - `sudo ./install-printer.sh`
 - `sudo ./install-scanner.sh`
-- puis paramètre / ajout d'une imprimante http://192.168.1.99 (chez moi)
-
+- http://localhost:631
+- uri : `ipp://192.168.1.99/ipp/print`
+- pilote `Samsung M2070 Series, driverless, cups-filters 1.28.17 (grayscale)`
+![](driver/m2070.png)
