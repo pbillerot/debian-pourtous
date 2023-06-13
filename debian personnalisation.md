@@ -82,9 +82,9 @@
 
 ## Imprimantes
 ```sh
-sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
 sudo usermod -a -G lpadmin <username>
 sudo usermod -a -G scanner <username>
+sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
 ```
 http://localhost:631
 
@@ -92,5 +92,5 @@ http://localhost:631
 - télécharger `driver/uld.*tar.gz`
 - `sudo ./install-printer.sh`
 - `sudo ./install-scanner.sh`
-- puis paramètre / ajout d'une imprimante n°ip 192.168.1.99 (chez moi)
+- puis paramètre / ajout d'une imprimante http://192.168.1.99 (chez moi)
 

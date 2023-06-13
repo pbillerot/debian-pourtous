@@ -25,11 +25,6 @@ adduser <compte> sudo
 curl -sSL https://raw.githubusercontent.com/pbillerot/debian-pourtous/master/debian-mini.sh | sh
 reboot
 ```
-- à vérifier si nécessaire sans chrome
-- après le boot lors du login choisir le gestionnaire Xorg accessible via la roue dentée en bas à droite
-
-
-- mettre dans debian-drive.md
 
 ## Bureau Dash to panel
 - Lancer l'application `Extensions`
