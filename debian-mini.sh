@@ -3,9 +3,8 @@
 # Ajouts de paquets standards
 apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
 apt install -y nautilus-image-converter
-apt install -y gthumb wget htop nnn ncdu neofetch rsync
+apt install -y gthumb wget htop nnn ncdu neofetch rsync moreutils
 apt install -y sshfs nfs-common xauth cifs-utils nnn
-# apt install -y inxi
 
 # Ajouts de paquets flatpak
 apt install flatpak gnome-software-plugin-flatpak
