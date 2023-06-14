@@ -7,13 +7,12 @@ sudo ln -s /media/<user>/SanDisk/nas /nas
 ```
 
 ## Commande shell ll
-- `alias ll='ls -lh'`
-- à ajouter dans file://~.bashrc
+- `echo "alias ll='ls -lh" >>~.bashrc`
 
 ## Blocnote ZIM
 - installer Zim et créer le blocnote par défaut
-- Edition / Préférences / Modification / décocher "Transformer automatiquement en CamelCase"
-- Edition / Préférences / Greffons / décocher "Gestion de version" cocher "Navigateur de fichiers liés"
+- Edition / Préférences / Modification / décocher `Transformer automatiquement en CamelCase`
+- Edition / Préférences / Greffons / décocher `Gestion de version` cocher `Navigateur de fichiers liés`
 
 ## Utilisateur avancé
 - Audacity
@@ -23,7 +22,7 @@ sudo ln -s /media/<user>/SanDisk/nas /nas
 ## Chrome
 ### Options au 1er démarrage de Chrome
 - chrome (flathub)
-- Navigateur par défaut ?
+- Paramètres / Applcations par défaut / Site web : `Google Chrome`
 - Ajouter Chrome aux favoris du dock
 - Paramètres / Apparence / `Afficher le bouton Accueil`
 - Paramètres / Apparence / `Afficher la barre de favoris`
@@ -51,14 +50,12 @@ sudo apt update && sudo apt install codium
     (Cela réduit les risques d'attaques)
 - Modifiez le fichier `/etc/ssh/sshd_config`
 - sudo nano /etc/ssh/sshd_config
-    - décommenter
-    - PubkeyAuthentication yes
+    - décommenter `PubkeyAuthentication yes`
 
 ```bash
 # partage de répertoire
 sudo mkdir /volshare
 sudo chown user:user /volshare
-sshfs user@server.com:/volshare /volshare
 ```
 
 ### sur le client
@@ -69,7 +66,7 @@ ssh-geygen
 ssh-copy-id -i /home/user/.ssh/id_rsa user@host
 ```
 ```bash
-# Accès au répertoire
+# Création du répertoire distant sécurisé
 sudo mkdir /volshare
 sudo chown user:user /volshare
 sshfs user@host:/volshare /volshare
@@ -90,3 +87,5 @@ fichier `~.gitconfig`
 [core]
 	editor = vi
 ```
+- ssh-keygen -t ed25519 -C "philippe.billerot@gmail.com"
+- Copier contenu de ~.ssh/id_ed25519.pub dans account/settings/ssh keys
