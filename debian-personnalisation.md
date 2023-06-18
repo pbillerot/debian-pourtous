@@ -71,6 +71,9 @@
 ## Sauvegarde Pika
 - installer Sauvegardes Pika (flathub)
 - semble intéressant - à tester sur autre disque, usb, ftp et ssh
+![image](https://github.com/pbillerot/debian-pourtous/assets/2213723/b822ebde-4eaa-4b94-aecc-0b9abf823dd3)
+![image](https://github.com/pbillerot/debian-pourtous/assets/2213723/22e100e8-bb2d-46db-8e2b-f9428a2e3e24)
+![image](https://github.com/pbillerot/debian-pourtous/assets/2213723/506cb9df-b469-4e2b-b54d-d720a0765605)
 
 ### Évolution
 - Édition/Comptes/Comptes de messagerie
