@@ -35,6 +35,6 @@ reboot
   - Style / Remplacer l'opacité du thème du panneau
   - Comportement (Behavior) / Dégrouper les applications / Longueur maximum (px) des titres... = 0
 
-
-[Réglages](debian personnalisation.md)
+![Réglages et personnalisation](debian-personnalisation.md)
+![Compléments et outils de développement](debian-complement.md)
 

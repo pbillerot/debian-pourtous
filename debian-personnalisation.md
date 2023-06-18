@@ -84,6 +84,7 @@
 ```sh
 sudo usermod -a -G lpadmin <username>
 sudo usermod -a -G scanner <username>
+# pilote HP
 sudo apt install cups cups-bsd cups-client tasksel foomatic-db-engine hp-ppd hplip openprinting-ppds printer-driver-all
 ```
 

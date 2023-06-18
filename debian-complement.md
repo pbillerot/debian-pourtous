@@ -21,7 +21,6 @@ sudo ln -s /media/<user>/SanDisk/nas /nas
 
 ## Chrome
 ### Options au 1er démarrage de Chrome
-- chrome (flathub)
 - Paramètres / Applcations par défaut / Site web : `Google Chrome`
 - Ajouter Chrome aux favoris du dock
 - Paramètres / Apparence / `Afficher le bouton Accueil`
