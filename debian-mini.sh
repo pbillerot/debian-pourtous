@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # nous sommes en root
 # Ajouts de paquets standards
-apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
+# apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-appindicator
 apt install -y nautilus-image-converter
 apt install -y gthumb wget htop nnn ncdu neofetch rsync moreutils zip
 apt install -y sshfs nfs-common xauth cifs-utils nnn

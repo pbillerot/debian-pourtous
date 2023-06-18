@@ -27,12 +27,13 @@ reboot
 ```
 
 ## Bureau Dash to panel
-- Lancer l'application `Extensions`
-- dans les extensions installées on devrait trouver `Dash to Panel`, l'activer et paramétrer
+- dans firefox rechercher `gnome extension`et `Cliquez ici pour installer l'extension du navigateur`
+- Installer `Dash to panel`
+- Paramètres
   - Position / Position du panneau : Haut
   - Style / Style de l'indicateur d'activité (Application active) / Couleur de l'indicateur - Icône dominante
   - Style / Remplacer l'opacité du thème du panneau
-  - Comportement / Dégrouper les applications / Longueur maximum (px) des titres... = 0
+  - Comportement (Behavior) / Dégrouper les applications / Longueur maximum (px) des titres... = 0
 
 
 [Réglages](debian personnalisation.md)
