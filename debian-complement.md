@@ -27,7 +27,7 @@ sudo ln -s /media/<user>/SanDisk/nas /nas
 - Paramètres / Apparence / `Afficher la barre de favoris`
 
 ## Système
-## Mission Center
+### Mission Center
 - `flatpak install flathub io.missioncenter.MissionCenter`
 
 ## Pour développeur
